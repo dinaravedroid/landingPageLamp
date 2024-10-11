@@ -1,0 +1,39 @@
+a {
+    color: #3D9090;
+    text-decoration: none;
+    font-family: SFCompactDisplay-Regular, sans-serif ;
+    font-size: 21px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+#header_list {
+    display: flex;
+}
+
+#main-header-menu li:nth-child(1) {
+    margin-right: 64px;
+}
+#main-header-menu li:nth-child(2) {
+    margin-right: 56px;
+}
+#main-header-menu li:nth-child(3) {
+    margin-right: 41px;
+}
+
+
+#main-header-menu a:hover {
+    border-bottom: 2px solid #3D9090;
+}

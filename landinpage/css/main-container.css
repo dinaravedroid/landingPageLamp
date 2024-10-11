@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: #DBEEEE;
+    margin: 0;
+    height: 100vh;
+}
+
+#main-container {
+    max-width: 1600px;
+    width: 100%;
+    height: 100%;
+
+}
+
+@font-face {
+font-family: SF Compact Display ;
+src: url("fonts/SFCompactDisplay-Regular.otf");
+src: url("fonts/SFCompactDisplay-Ultralight.otf");
+}

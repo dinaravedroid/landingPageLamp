@@ -1,0 +1,39 @@
+#right-column{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1);
+    margin-top: 16px;
+    position: relative;
+}
+
+
+#right-img-picture {
+    grid-column: 1/13;
+    grid-row: 1;
+    position: relative;
+}
+
+
+
+#overlay-image {
+    position: absolute;
+    margin-top: 180px;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    height: 360px;
+    pointer-events: none;
+}
+
+
+hidden {
+    opacity: 0;
+}
+
+#lamp-img1 {
+    grid-column: 4/7;
+    grid-row: 1;
+    position: relative;
+    z-index: 2;
+
+}
+

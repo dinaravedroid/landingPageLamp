@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>ease</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel='stylesheet' href='css/main.css'>
+    <link rel='stylesheet' href='css/header.css'>
+    <link rel='stylesheet' href='css/right-column.css'>
+    <link rel='stylesheet' href='css/left-column.css'>
+    <link rel='stylesheet' href='css/lamp-info.css'>
+    <link rel='stylesheet' href='css/main-container.css'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="jquery/dist/jquery.js"></script>
+</head>
+<body>
+
+<div id="main-container">
+    <div id="main-header">
+            <img id="main-header-logo" src="images/ease2.svg" alt="">
+        <div id="main-header-menu">
+            <ul id="header_list">
+                <li><a href="#" >COLLECTIONS</a></li>
+                <li><a href="#" >BLOG</a></li>
+                <li><a href="#" >ABOUT</a></li>
+                <li><a href="#" >CONTACTS</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main-content">
+        <div id="right-column">
+            <div id="right-img-picture">
+                <img id="picture" src="images/mainimg.png" alt="Day">
+                <img id="picture2" style="display: none;" src="images/night-img.png" alt="Night">
+                <img id="overlay-image" src="" alt="Overlay">
+            </div>
+        </div>
+        <div id="left-column">
+            <div id="text">
+                <p>Collection of lighting is inspired by the geometric works of the great Suprematist artists Kissitzky and Kazimir Malevich.</p>
+                <p>Suprematism is a modernist movement in the art of the early twentieth century, focused on the basic geometric forms, such as circles, squares, lines and rectangles. The geometric structure of the lamps will always look like a small art objects in your house.</p>
+            </div>
+            <div id="lamp-info">
+                <div id="lamp-info-elepse">
+                    <div class="spinner-grow text-secondary" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <ul id="info">
+                        <li class='label'><span class="name">Material:</span><span class="data" id='material'></span></li> <br>
+                        <li class='label'><span class="name">Dimensions (cm):</span><span class="data" id='dimensions'></span></li><br>
+                        <li class='label'><span class="name">Net Weight:</span><span class="data" id='weight'></span></li><br>
+                        <li class='label'><span class="name">Electrification:</span><br><span class="data" id='electrification'></span></li>
+                    </ul>
+                </div>
+                <div id="lamp-img2">
+                    <img id='overlay-image2' src="" alt="">
+                </div>
+                <div id="day-night">
+                    <a id="day" href="#"><img src="images/day.svg" alt="Day"></a>
+                    <a id="night" href="#"><img src="images/night.svg" alt="Night"></a>
+                </div>
+                <div id="lamp-info-rectangle">
+                    <div id="square-blocks">
+                      <a class="square" id="block1" href="#"><img src="" alt=""></a>
+                      <a class="square" id="block2" href="#"><img src="" alt=""></a>
+                      <a class="square" id="block3" href="#"><img src="" alt=""></a>
+                      <a class="square" id="block4" href="#"><img src="" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="jquery/dist/api.js"></script>
+<script src="jquery/dist/animation.js"></script>
+</body>
+</html>

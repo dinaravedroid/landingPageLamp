@@ -1,0 +1,25 @@
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(1);
+
+#left-column {
+    grid-column: 1/7;
+    grid-row: 1;
+}
+
+#right-column {
+    grid-column: 7/15;
+    grid-row: 1;
+}
+
+
+
+body {
+    margin:0;
+    font-family: SF Compact Display, sans-serif;
+    background-color: #DBEEEE ;
+}
+
+
+
