@@ -1,3 +1,4 @@
+import React from 'react';
 import ease2 from "../../images/ease2.svg";
 import './styles.css';
 

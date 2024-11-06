@@ -1,0 +1,12 @@
+.day-night {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    height: 76px;
+    width: 178px;
+    border-radius: 0 0 0 20px;
+    background: linear-gradient(to right, #FFF3DA 50%,  #94A6A6 50%);
+    cursor: pointer;
+
+}
