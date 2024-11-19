@@ -6,7 +6,7 @@ import day from "../../images/day.svg";
 import night from "../../images/night.svg";
 
 const Picture = (props) => {
-    const mainImg = props.currentImg === nightImg ? nightImg : dayImg ;
+    const mainImg = props.currentImg === false ? nightImg : dayImg;
 
     return  (
              <div className='main-content__picture'>

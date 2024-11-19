@@ -4,7 +4,7 @@ import Square from '../square/Square';
 import DayNight from '../day-night/DayNight';
 
 
-const Api = (props) => {
+const LampInfo = (props) => {
     return (
             <div className='main-content__api'>
                     <div className='main-content__elepse'>
@@ -24,4 +24,4 @@ const Api = (props) => {
 
 }
 
-export default Api
+export default LampInfo
