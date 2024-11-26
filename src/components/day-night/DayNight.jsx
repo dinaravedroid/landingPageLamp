@@ -11,15 +11,12 @@ function DayNight(props) {
         props.setCurrentImg(isDay);
     };
 
-    const handleDayClick = () => handleButtonClick(true);
-    const handleNightClick = () => handleButtonClick(false);
-
     return (
         <div className="day-night">
-            <button className="day-night__day" onClick={handleDayClick}>
+            <button className="day-night__day" onClick={() => handleButtonClick(true)}>
                <img src={day} alt="Day" />
             </button>
-            <button className="day-night__night" onClick={handleNightClick}>
+            <button className="day-night__night" onClick={() => handleButtonClick(false)}>
                 <img src={night} alt="Night" />
             </button>
         </div>
