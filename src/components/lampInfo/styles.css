@@ -1,4 +1,4 @@
-.main-content__api {
+.main-content__lampInfo {
     grid-column: 1/7;
     grid-row: 8/15;
     padding: 0px;
@@ -6,7 +6,7 @@
     justify-content: space-between;
     position: relative;
 }
-.main-content__api::before {
+.main-content__lampInfo::before {
     content: '';
     position: absolute;
     top: 0;
@@ -16,7 +16,6 @@
     background-color: #C4C4C4;
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
 }
-
 
 
 .main-content__elepse {
@@ -31,25 +30,57 @@
     z-index: 1;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    text-align: left;
 }
 
+.main-content__list {
+    margin-left:60px;
+
+}
+.main-content__list p{
+    padding:10px;
+    font-weight: 100;
+    font-family: SFCompactDisplay-Regular, sans-serif ;
+    font-size: 16px;
+}
+
+main-content__rectangle-square{
+    display:flex;
+    flex-direction:column;
+}
 .main-content__rectangle {
     display: flex;
     margin-top: 41px;
     width: 167px;
-    height: 554px;
+    height: 478px;
     background-color: #BDDDDD;
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px 0 0 0;
     overflow-y: hidden;
     overflow-x: hidden;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.main-content__rectangle:hover {
+  overflow-y: scroll;
 }
 
+.main-content__rectangle::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+.main-content__rectangle::-webkit-scrollbar-thumb {
+  background-color: #94A6A6;
+  border-radius: 4px;
+}
+
+
+.main-content__light {
+    width: 100%;
+    height: auto;
+}
 
 .main-content__squares {
     display:flex;
@@ -61,7 +92,30 @@
     margin-top: 17px;
 }
 
-.main-content__light {
-    width: 100%;
-    height: auto;
+.main-content__overlay-image{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 380px;
+    transform: translate(-50%, -50%);
+    height: 580px;
+    pointer-events: none;
+    z-index: 2;
+}
+.main-content__overlay-image2{
+    position: absolute;
+    margin-top: -297px;
+    left: 142%;
+    transform: translate(-50%, -50%);
+    height: 356px;
+    pointer-events: none;
+
+}
+
+.main-content__overlay-image2 img{
+height:100%;
+}
+
+.spinner{
+margin-top: 200px;
+margin-left: 300px;
 }
