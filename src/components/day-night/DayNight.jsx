@@ -6,21 +6,22 @@ import dayImg from "../../images/mainimg.png";
 import nightImg from "../../images/night-img.png";
 
 
-function DayNight(props) {
+const DayNight = React.memo((props)=>{
     const handleButtonClick = (isDay) => {
-        props.setCurrentImg(isDay);
-    };
+            props.setCurrentImg(isDay);
+        };
 
-    return (
-        <div className="day-night">
-            <button className="day-night__day" onClick={() => handleButtonClick(true)}>
-               <img src={day} alt="Day" />
-            </button>
-            <button className="day-night__night" onClick={() => handleButtonClick(false)}>
-                <img src={night} alt="Night" />
-            </button>
-        </div>
-    );
-}
+        return (
+            <div className="day-night">
+                <button className="day-night__day" onClick={() => handleButtonClick(true)}>
+                   <img src={day} alt="Day" />
+                </button>
+                <button className="day-night__night" onClick={() => handleButtonClick(false)}>
+                    <img src={night} alt="Night" />
+                </button>
+            </div>
+        );
+})
+
 
 export default DayNight;
