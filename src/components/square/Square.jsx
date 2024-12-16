@@ -1,15 +1,16 @@
+
 import React from 'react';
 import './styles.css';
 import lamps from "../../images/Lamp - 3.png";
 
-function Square() {
+const Square = React.memo((props) => {
     return (
-        <div className="square">
-            <a className="block" href="#">
-                <img src={lamps} alt="" />
-            </a>
+        <div className="square" onClick={props.onClick}>
+            <img src={props.img} alt="" />
         </div>
-)
-}
+    )
+});
 
-export default Square
+
+export default Square;
+
