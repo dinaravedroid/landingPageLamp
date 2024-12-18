@@ -23,7 +23,7 @@
 }
 
 
-.block:hover {
+.square:hover {
     background-color: #DBEEEE ;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     border-radius: 14px;
