@@ -1,6 +1,7 @@
 .main-content__picture {
     grid-column: 7/15;
     grid-row: 1/15;
+    position: relative;
 
 }
 .main-content__img {
@@ -8,4 +9,6 @@
    height: auto;
    max-height: 100%;
    object-fit: cover;
+   position: absolute;
+   border-radius: 20px;
 }
